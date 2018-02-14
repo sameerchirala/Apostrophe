@@ -1,0 +1,449 @@
+﻿/*SharePoint app css so that the website can take whole space*/
+
+#suiteBar {
+    display: none;
+}
+
+#s4-ribbonrow {
+    display: none;
+}
+
+#DeltaSiteLogo {
+    display: none;
+}
+
+#pageTitle {
+    display: none;
+}
+
+#s4-workspace {
+    width: 100%;
+    height: auto;
+    /*overflow-y:hidden;*/
+}
+
+#contentBox {
+    margin: 0px 0px 0px 0px;
+}
+
+#s4-titlerow {
+    display: none;
+    padding: 0px 0px 0px 0px;
+    height: 0px;
+}
+
+div #contentRow {
+    padding: 0px 0px 0px 0px;
+}
+
+#s4-bodyContainer {
+    padding: 0px 0px 0px 0px;
+}
+
+#titleAreaRow {
+    display: none;
+}
+
+#globalNavBox {
+    display: none;
+}
+
+/*End of SharePoint app page css*/
+.logo {
+    width: 99px;
+    padding-top: 6px;
+    cursor: pointer;
+}
+
+
+.full_height {
+    height: 100vh;
+    max-height: 100vh;
+}
+.no-padding {
+padding-left:0px !important;
+padding-right:0px !important;
+}
+.input-form {
+position:absolute;
+z-index:1000;
+color:white;
+width:100%;
+height:100%;
+padding-top:120px;
+
+
+}
+
+.box{
+  
+  color:#fff;
+  background:rgba(0,0,0,0.13);
+  padding:30px 0px;
+}
+.box h1{
+  text-align:center;
+  margin:30px 0;
+  font-size:30px;
+}
+.box input{
+  
+  width:300px;
+  margin:20px auto;
+  padding:15px;
+  background:rgba(0,0,0,0.2);
+  color:#fff;
+  border:0;
+}
+.box select{
+ 
+  width:300px;
+  margin:20px auto;
+  padding:15px;
+  background:rgba(0,0,0,0.2);
+  color:#fff;
+  border:0;
+}
+.box input:focus,.box input:active,.box button:focus,.box button:active{
+  outline:none;
+}
+.box button{
+  background:#2ecc71;
+  border:0;
+  color:#fff;
+  padding:10px;
+  font-size:20px;
+  width:330px;
+  margin:20px auto;
+  
+  cursor:pointer;
+}
+.box button:active{
+  background:#27ae60;
+}
+
+
+
+
+
+
+
+
+
+
+
+.loading-gif {
+    position: fixed;
+    display: block;
+    margin: 0 auto;
+    top: 50%;
+    left: 50%;
+    pointer-events:none;
+}
+
+.display-none {
+    display: none;
+}
+
+.aboutus {
+    font-size: 16px;
+    padding: 5px 0px 5px 0px;
+}
+
+.story {
+ padding-top: 7%;
+}
+.space{
+    padding-top:5vh;
+}
+
+.teams-banner {
+
+background-image:url('http://sp2013.lowes.com/sites/cscb/apostrophe/SiteAssets/apostrophe%20assets/sports.jpg');
+}
+
+
+.team-names {
+    padding: 5px 5px 5px 5px;
+    padding-top:14%;
+}
+
+team-names div a {
+border-style:none;
+}
+
+
+/*Profile left nav css*/
+/* Profile container */
+.profile {
+    padding-top:3%;
+}
+
+.padding2 {
+    padding-bottom: 20px;
+}
+
+/* Profile sidebar */
+.profile-sidebar {
+    /*padding: 20px 0 10px 0;*/
+    background: #55cbd2;
+    border-radius: 4%;
+    
+}
+
+.profile-userpic {
+    padding-top: 3%;
+}
+
+    .profile-userpic img {
+        float: none;
+        margin: 0 auto;
+        width: 120px;
+        height: 120px;
+        border-color: white;
+        -webkit-border-radius: 50% !important;
+        -moz-border-radius: 50% !important;
+        border-radius: 50% !important;
+    }
+
+.profile-usertitle {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.profile-usertitle-name {
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+
+.profile-usertitle-job {
+    text-transform: uppercase;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+
+.profile-usermenu {
+    /*margin-top: 30px;*/
+}
+
+    .profile-usermenu ul li {
+        border-bottom: 1px solid #f0f4f7;
+    }
+
+        .profile-usermenu ul li:last-child {
+            border-bottom: none;
+        }
+
+        .profile-usermenu ul li a {
+            /*color: #93a3b5;*/
+            color: white;
+            font-size: 14px;
+            font-weight: 400;
+            cursor: pointer;
+        }
+
+            .profile-usermenu ul li a i {
+                margin-right: 8px;
+                font-size: 14px;
+            }
+
+        .profile-usermenu ul li.no-hover {
+            cursor: default;
+        }
+
+            .profile-usermenu ul li.no-hover a {
+                cursor: default;
+            }
+
+                .profile-usermenu ul li.no-hover a:hover {
+                    box-shadow: 0 0 0;
+                    background-color: #55cbd2;
+                    width: 0px;
+                    cursor: default;
+                }
+
+        .profile-usermenu ul li.hover-class a:hover {
+            background-color: #3d3d3d;
+            color: white;
+            
+        }
+
+        .profile-usermenu ul li.active {
+            border-bottom: none;
+        }
+
+            .profile-usermenu ul li.active a {
+            color: #fff;
+                background-color: #3d3d3d;
+                border-left: 2px solid #5b9bd1;
+                margin-left: -2px;
+                border-radius: 8%;
+            }
+
+
+.headings1 {
+padding:0px 0px 15px 0px;
+font-size:x-large;
+}
+
+.headings2 {
+padding:15px 0px 15px 0px;
+font-size:x-large;
+}
+
+/* Common style */
+.col-wrapper figure {
+    position: relative;
+    z-index: 1;
+    display: block;
+    overflow: hidden;
+    margin: -0.135em;
+    /*width: 100%;*/
+    width: 400px;
+    height:300px;
+    background: #3085a3;
+    text-align: center;
+    float: left;
+}
+
+.padding-top {
+    margin-top: 8%;
+}
+
+.col-wrapper figure img {
+    position: relative;
+    display: block;
+    min-height: 100%;
+    width: 400px;
+    height:300px;
+    opacity: 0.8;
+    max-width: initial !important;
+    max-height: initial !important;
+}
+
+.col-wrapper figure figcaption {
+    padding: 2em;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.25em;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+    .col-wrapper figure figcaption::before,
+    .col-wrapper figure figcaption::after {
+        pointer-events: none;
+    }
+
+.col-wrapper figure figcaption,
+.col-wrapper figure a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+.col-wrapper figure a {
+    z-index: 1000;
+    text-indent: 200%;
+    white-space: nowrap;
+    font-size: 0;
+    opacity: 0;
+}
+
+.col-wrapper figure h2 {
+    word-spacing: -0.15em;
+    font-weight: 300;
+}
+
+    .col-wrapper figure h2 span {
+        font-weight: 500;
+    }
+
+.col-wrapper figure h2,
+.col-wrapper figure p {
+    margin: 0;
+}
+
+.col-wrapper figure p {
+    letter-spacing: 1px;
+    font-size: 68.5%;
+}
+.img-links{
+    cursor:pointer;
+}
+
+.test{
+    width:100%;
+}
+
+
+
+   /* jssor slider bullet navigator skin 05 css */
+        /*
+        .jssorb05 div           (normal)
+        .jssorb05 div:hover     (normal mouseover)
+        .jssorb05 .av           (active)
+        .jssorb05 .av:hover     (active mouseover)
+        .jssorb05 .dn           (mousedown)
+        */
+        .jssorb05 {
+            position: absolute;
+        }
+            .jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
+                position: absolute;
+                /* size of bullet elment */
+                width: 16px;
+                height: 16px;
+                background: url('../Images/b05.png') no-repeat;
+                overflow: hidden;
+                
+                cursor: pointer;
+            }
+        .jssorb05 div { background-position: -7px -7px; }
+        .jssorb05 div:hover, .jssorb05 .av:hover { background-position: -37px -7px; }
+        .jssorb05 .av { background-position: -67px -7px; }
+        .jssorb05 .dn, .jssorb05 .dn:hover { background-position: -97px -7px; }
+
+        /* jssor slider arrow navigator skin 22 css */
+        /*
+        .jssora22l                  (normal)
+        .jssora22r                  (normal)
+        .jssora22l:hover            (normal mouseover)
+        .jssora22r:hover            (normal mouseover)
+        .jssora22l.jssora22ldn      (mousedown)
+        .jssora22r.jssora22rdn      (mousedown)
+        .jssora22l.jssora22lds      (disabled)
+        .jssora22r.jssora22rds      (disabled)
+        */
+        .jssora22l, .jssora22r {
+            display: block;
+            position: absolute;
+            /* size of arrow element */
+            width: 40px;
+            height: 58px;
+            cursor: pointer;
+            background: url('../Images/a22.png') center center no-repeat;
+            overflow: hidden;
+        }
+        .jssora22l { background-position: -10px -31px; }
+        .jssora22r { background-position: -70px -31px; }
+        .jssora22l:hover { background-position: -130px -31px; }
+        .jssora22r:hover { background-position: -190px -31px; }
+        .jssora22l.jssora22ldn { background-position: -250px -31px; }
+        .jssora22r.jssora22rdn { background-position: -310px -31px; }
+        .jssora22l.jssora22lds { background-position: -10px -31px; opacity: .3; pointer-events: none; }
+        .jssora22r.jssora22rds { background-position: -70px -31px; opacity: .3; pointer-events: none; }
+    
+
+
+
+

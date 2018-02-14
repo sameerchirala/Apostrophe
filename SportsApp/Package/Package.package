@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="9e594810-b671-41b2-bacf-8a40baf175af" 
+        solutionId="9e594810-b671-41b2-bacf-8a40baf175af" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="SportsApp"
+        sharePointProductVersion="15.0">
+  <features>
+        <featureReference itemId="35a20bd2-59d6-4cd5-b2b3-94b6af74dd8e" />
+  </features>
+</package>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="RootModule">
+    <File Path="CSS\bootstrap.min.css" Url="CSS/bootstrap.min.css" ReplaceContent="TRUE" />
+    <File Path="CSS\bootstrap-theme.min.css" Url="CSS/bootstrap-theme.min.css" ReplaceContent="TRUE" />
+    <File Path="CSS\main.css" Url="CSS/main.css" ReplaceContent="TRUE" />
+    <File Path="js\jquery.actual.min.js" Url="js/jquery.actual.min.js" ReplaceContent="TRUE" />
+    <File Path="js\jquery.scrollTo.min.js" Url="js/jquery.scrollTo.min.js" ReplaceContent="TRUE" />
+    <File Path="js\jquery-2.1.3.min.js" Url="js/jquery-2.1.3.min.js" ReplaceContent="TRUE" />
+    <File Path="js\main.js" Url="js/main.js" ReplaceContent="TRUE" />
+    <File Path="js\jquery.appear.js" Url="js/jquery.appear.js" ReplaceContent="TRUE" />
+  </Module>
+</Elements>
